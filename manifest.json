@@ -1,0 +1,19 @@
+{
+    "name":"Hello Extension",
+    "description":"First Extensions to google chrome",
+    "version":"0.1",
+    "manifest_version":2,
+
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_icon":"xmind.png"
+    },
+    "commands":{
+        "_execute_browser_action":{
+            "suggested_key":{
+                "default":"Ctrl+Shift+F"
+            },
+        "description":"Open index.html and salute the awesomeness"
+        }
+    }
+}
